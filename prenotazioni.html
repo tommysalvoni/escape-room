@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prenotazioni</title>
+        <link rel="stylesheet" href="style4.css">
+        <script src="javascript4.js"></script>
+        <link rel="icon" href="logo.png">
+    </head>
+
+    <body>
+        <img src="background.jpg" class="sfondo">
+        <div class="barrafissa">
+            <div></div>
+            <a href="pagina iniziale.html" class="linkHome">
+                <h1 id="titolo">Escape Room</h1>
+            </a>
+            
+            
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="seconda pagina.html">chi siamo</a>
+                <a href="stanze.html">stanze</a>
+                <a href="prenotazioni.html" class="paginaincuisei">prenotazioni</a>
+                <a href="#">assistenza</a>
+              </div>
+              
+              <div id="main" class="main">
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+              </div>
+        </div>
+
+        <div class="input">
+            <h2>Prenota la tua stanza</h2>
+            <p>inserisci tutti i campi richiesti</p>
+            
+            <label for="nome" style="color: white;">Nome:</label>
+			<br/> <input type="text" name="nome" id="nome" size="45" maxlength="45"/><br>
+            
+            <label for="cognome" style="color: white;">Cognome:</label>
+			<br/> <input type="text" name="cognome" id="cognome" size="45" maxlength="45"/><br>
+
+            <label for="mail" style="color: white;">Mail:</label>
+			<br/> <input type="text" name="mail" id="mail" size="45" maxlength="45"/><br>
+
+            <label for="stanza" style="color: white;">Scegli la stanza:</label> <br>
+			<select id="stanza" name="stanza">
+			  <option value="Doctor Strange">Doctor Strange</option>
+			  <option value="Harry Potter">Harry Potter</option>
+			  <option value="Venerdì 13">Venerdì 13</option>
+			  <option value="Rambo III">Rambo III</option>
+			</select> <br>
+
+            <label for="ora" style="color: white;">A quale orario vuoi prenotare?</label> <br>
+			<select id="ora" name="ora">
+			  <option value="14">14:00</option>
+			  <option value="15">15:00</option>
+			  <option value="16">16:00</option>
+			  <option value="16:30">16:30</option>
+			</select> <br>
+
+        </div>
+
+        <div class="foot">
+            <div></div>
+            <div>
+                <br>
+                <br>
+                <br>
+                <a href="mailto:tommysalvoni@gmail.com" class="mail">escaperooms@gmail.com</a>
+            </div>
+            <div class="partecentrale">
+                <br>
+                <a href="pagina iniziale.html" class="ricarica"><b>Escape Room</b></a>
+                <br>
+                <p>+39 351 877 72 03</p>
+            </div>
+            <div class="indirizzo">
+                <br>
+                <br>
+                <br>
+                <a href="https://www.google.it/maps/place/Via+Padova,+54,+10088+Volpiano+TO/@45.1945518,7.7664258,17z/data=!3m1!4b1!4m5!3m4!1s0x47887a858283e6fd:0x5e3f40ebd4e3a2f!8m2!3d45.194548!4d7.7686145" class="indirizzo">Volpiano, via Padova 54</a>
+            </div>
+            <div></div>
+
+        </div>
+    </body>
+
+</html>

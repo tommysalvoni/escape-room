@@ -1,0 +1,135 @@
+body{
+    margin: 0%;
+    background-color: #D8D8D8;
+  }
+  .sfondo{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .barrafissa{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    margin: 0px;
+    height: 46.5px;
+  }
+
+  h1{
+    width: auto;
+    text-align: center;
+    color: maroon;
+    vertical-align: bottom;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Brush Script MT", cursive;
+    text-decoration: none;
+  }
+  
+  .sidebar {
+    height: 100%; 
+    width: 0px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s;
+  }
+  
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.7s;
+  }
+  
+
+  .sidebar a:hover {
+    color: maroon;
+  }
+  
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+  .barrafissa h1{
+    transition: 0.5s;
+  }
+  .main{
+    transition: 0.5s;
+  }
+  
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #111;
+  }
+    a{
+      text-decoration: none;
+  }
+  .foot{
+    display: flex;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.142);
+    justify-content: space-between;
+  }
+  .indirizzo{
+    text-decoration: none;
+    color: white;
+  }
+  .ricarica{
+    text-decoration: none;
+    color: maroon;
+    left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+  }
+  .partecentrale{
+    text-align: center;
+  }
+  p{
+    color: white;
+  }
+  .sidebar .paginaincuisei:hover{
+    color: #818181;
+
+  }
+  .foot .mail{
+    text-decoration: none;
+    color: white;
+  }
+  .input h2{
+      margin-top: 0px;
+      padding-top: 46.5px;
+      color: white;
+
+  }
